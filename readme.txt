@@ -1,2 +1,2 @@
-AI Name: PDA (Perosonal Desktop AI)
+AI Name: PDA (Perosnal Desktop AI)
 Created by: Ritesh Vishwasrao
