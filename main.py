@@ -65,14 +65,14 @@ def takeCommand():
             print(f"User said: {query}")
             return query
         except Exception as e:
-            return "Some error Occurred. Sorry From Friday"
+            return "Some error Occurred. Sorry From AI"
 
 
 #------------------ MAIN FUnctON --------------------------------------------------------------------------
 
 if __name__ == '__main__':
     print("Hello")
-    say('Hello I am Friday You are Assistant AI')
+    say('Hello I am You are Assistant AI')
     while True:
         print("Listenning....")
         query = takeCommand()
@@ -134,9 +134,9 @@ if __name__ == '__main__':
                 for article in articles:
                     say(article['title'])
 
-#----------------- Friday Name Called Here -----------------------------------------------------------------------------------
+#----------------- AI Name Called Here -----------------------------------------------------------------------------------
 
-        elif "Friday".lower() in query.lower():
+        elif "pda".lower() in query.lower():
             say("Yes Sir..")
 
 #----------------- Friday Shut Down Called Here -----------------------------------------------------------------------------------
