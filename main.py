@@ -139,7 +139,7 @@ if __name__ == '__main__':
         elif "pda".lower() in query.lower():
             say("Yes Sir..")
 
-#----------------- Friday Shut Down Called Here -----------------------------------------------------------------------------------
+#----------------- Shut Down Called Here -----------------------------------------------------------------------------------
 
         elif "shut down".lower() in query.lower():
             say("Shutting Down sir...")
